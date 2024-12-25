@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#indices {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#indices ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#indices ul li {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#indices ul li:hover {
+    background-color: #e0e0e0;
+}
+
+#chart-container {
+    width: 75%;
+    float: right;
+    padding: 20px;
+}
